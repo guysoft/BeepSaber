@@ -23,7 +23,8 @@ jobs:
     - name: export game
       # Use latest version (see releases for all versions)
       run: |
-        apt-get install android-sdk
+        sudo apt-get update
+        sudo apt-get install android-sdk
         wget https://downloads.tuxfamily.org/godotengine/3.3/mono/Godot_v3.3-stable_mono_linux_headless_64.zip
         wget https://downloads.tuxfamily.org/godotengine/3.3/mono/Godot_v3.3-stable_mono_export_templates.tpz
         unzip Godot_v3.3-stable_mono_linux_headless_64.zip
