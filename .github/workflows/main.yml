@@ -37,9 +37,8 @@ jobs:
         whoami
         mkdir -p ~/.local/share/godot/templates
         unzip Godot_v3.3-stable_mono_export_templates.tpz -d ~/.local/share/godot/templates
-        Godot_v3.3-stable_mono_linux_headless_64/Godot_v3.3-stable_mono_linux_headless.64 
-        
-       Godot_v3.3-stable_mono_linux_headless_64/Godot_v3.3-stable_mono_linux_headless.64 project.godot  --export "Oculus Quest" godot_beep_saber_0.3.1.apk --verbose
+        Godot_v3.3-stable_mono_linux_headless_64/Godot_v3.3-stable_mono_linux_headless.64         
+        Godot_v3.3-stable_mono_linux_headless_64/Godot_v3.3-stable_mono_linux_headless.64 project.godot  --export "Oculus Quest" godot_beep_saber_0.3.1.apk --verbose
 
         
         
